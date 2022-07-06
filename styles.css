@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     font-weight: 400, 500, 600, 700;
@@ -74,11 +75,29 @@ h1,p{
 @media screen and (max-width:375px) {
     body{
         flex-direction: column;
+        width: 100%;
+        padding:1em ;
+    }
+    p{
+        text-align: center;
     }
     .item1, .item2{
         width: 100%;
+        padding: 0.5em;
+        margin-right: 1px;
+        margin-left: 1px;
+
     }
     .itema, .itemb{
+        margin-right: 1px;
+        margin-left: 1x;
         width: 100%;
+        padding: 0.5em;
+    }
+    .itema{
+        margin-top: 20px;
+    }
+    .itemb{
+        margin-top: 10px;
     }
 }
